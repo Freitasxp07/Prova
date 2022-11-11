@@ -71,7 +71,7 @@ if (nome.value == login.value) {
         alert("Nomes Diferentes");
    } 
 } 
-
+</script>
 
 
 
