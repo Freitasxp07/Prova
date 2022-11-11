@@ -1,0 +1,79 @@
+<html>
+ <body>
+    <h2>Prova de Tecnologias</h2>
+    <div id="menu">
+      <ul>
+
+         <li><a href="index.html" onclick="home ();"> Home </a></li>
+         <li><a href="#" onclick="cadastrar();"> Cadastro </a></li>
+         <li><a href="#" onclick="tarefas ( "> Tarefas </a></li>
+         <li><a href="#"> Sobre </a></li>
+
+      </ul>
+   </div>
+   <div id="centro">
+       <div id="tarefas "> Tarefa:
+           <input id="nome" type="text" placeholder="Nome"><br>
+           <input type="text" placeholder="Login"><br>
+           <input class="botao">
+           <button class="botao"> Adicionar </button>
+   </div>
+   <div id="imagem">
+       <img src="smile.jpg" width="200" height="200">
+  </div>
+</div>
+
+</body>
+
+<script>
+    //Questão 1
+
+    Document.getElementsbyTagaName("h2")[0].styler.color="blue";
+    Document.getElementsbyTagaName("h2")[0].styler.fontsize="arial";
+
+
+
+    //Questão 2
+    Document.getElementsbyTagaName("h2")[].innerHTML = "Prova de web Avançado";
+
+
+    //Questão 3
+    function trocaTexto(){
+        var x = document.getElementsByClassName("botao")[0].value;
+        document.getElementsByClassTagName("a")[3].innerHTML = x;
+
+         );
+
+    //Questão 4 
+    var paragrafo = createElement("p");
+  document.getElementsByTagName("p").innerHTML = "Lucas";
+
+    //Questão 5
+
+   document.getElementsByClassName("botao")[1].addEventListener("click", function (){
+   document.getElementsByClassName("botao")[1].remove();});
+
+   //Questão 6
+
+   function converterMaiuscula (){
+   document.getElementsByClassName("botao")[1].toUpperCase();}
+
+   //Questão 7
+
+   document.getElementsByClassName("botao")[0].value;
+   document.getElementsByTagName("input")[0].value;
+
+   //Questão 8
+
+if (nome.value == login.value) {
+    alert("Nomes Iguais")
+     if (nome.value != login.value){
+        alert("Nomes Diferentes");
+   } 
+} 
+
+
+
+
+
+</html>
